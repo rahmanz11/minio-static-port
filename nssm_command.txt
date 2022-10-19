@@ -1,0 +1,8 @@
+sc delete Minio
+nssm.exe install minio E:\minio\minio.exe server --address :9595 --console-address :49952 E:\minio-data\
+exit
+
+set system environment variable:
+
+MINIO_ROOT_PASSWORD p45zctHR
+MINIO_ROOT_USER minioadmin
